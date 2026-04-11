@@ -1,0 +1,176 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2026-04-04 12:28+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh-CN\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: packages/admin/src/components/LocaleSwitcher.tsx:72
+msgid " (default)"
+msgstr "（默认）"
+
+#: packages/admin/src/components/LocaleSwitcher.tsx:107
+msgid "{label} — no translation"
+msgstr "{label} — 无翻译"
+
+#: packages/admin/src/components/LocaleSwitcher.tsx:107
+msgid "{label} — view translation"
+msgstr "{label} — 查看翻译"
+
+#: packages/admin/src/components/LocaleSwitcher.tsx:68
+msgid "All locales"
+msgstr "所有语言"
+
+#: packages/admin/src/components/Settings.tsx:99
+msgid "Allow users from specific domains to sign up"
+msgstr "允许来自特定域的用户注册"
+
+#: packages/admin/src/components/Settings.tsx:109
+msgid "API Tokens"
+msgstr "API 令牌"
+
+#: packages/admin/src/components/LoginPage.tsx:253
+msgid "Authentication error: {error}"
+msgstr "认证错误：{error}"
+
+#: packages/admin/src/components/LoginPage.tsx:174
+#: packages/admin/src/components/LoginPage.tsx:210
+msgid "Back to login"
+msgstr "返回登录"
+
+#: packages/admin/src/components/LoginPage.tsx:158
+msgid "Check your email"
+msgstr "查看您的邮箱"
+
+#: packages/admin/src/components/Settings.tsx:130
+msgid "Choose your preferred admin language"
+msgstr "选择您的首选管理语言"
+
+#: packages/admin/src/components/LoginPage.tsx:169
+msgid "Click the link in the email to sign in."
+msgstr "点击邮件中的链接即可登录。"
+
+#: packages/admin/src/components/Settings.tsx:110
+msgid "Create personal access tokens for programmatic API access"
+msgstr "创建个人访问令牌以通过程序访问 API"
+
+#: packages/admin/src/components/LoginPage.tsx:358
+msgid "Don't have an account? <0>Sign up</0>"
+msgstr "还没有账号？<0>立即注册</0>"
+
+#: packages/admin/src/components/Settings.tsx:115
+msgid "Email"
+msgstr "邮箱"
+
+#: packages/admin/src/components/LoginPage.tsx:183
+msgid "Email address"
+msgstr "邮箱地址"
+
+#: packages/admin/src/components/LoginPage.tsx:127
+#: packages/admin/src/components/LoginPage.tsx:132
+msgid "Failed to send magic link"
+msgstr "发送免密登录链接失败"
+
+#: packages/admin/src/components/Settings.tsx:69
+msgid "General"
+msgstr "常规"
+
+#: packages/admin/src/components/LoginPage.tsx:160
+msgid "If an account exists for <0>{email}</0>, we've sent a sign-in link."
+msgstr "如果存在与 <0>{email}</0> 关联的账号，我们已发送登录链接。"
+
+#: packages/admin/src/components/Settings.tsx:129
+msgid "Language"
+msgstr "语言"
+
+#: packages/admin/src/components/LocaleSwitcher.tsx:60
+msgid "Locale"
+msgstr "语言区域"
+
+#: packages/admin/src/components/Settings.tsx:93
+msgid "Manage your passkeys and authentication"
+msgstr "管理您的通行密钥和认证"
+
+#: packages/admin/src/components/LoginPage.tsx:313
+msgid "Or continue with"
+msgstr "或继续使用"
+
+#: packages/admin/src/components/Settings.tsx:82
+msgid "Search engine optimization and verification"
+msgstr "搜索引擎优化和验证"
+
+#: packages/admin/src/components/Settings.tsx:92
+msgid "Security"
+msgstr "安全"
+
+#: packages/admin/src/components/Settings.tsx:98
+msgid "Self-Signup Domains"
+msgstr "自助注册域"
+
+#: packages/admin/src/components/LoginPage.tsx:206
+msgid "Send magic link"
+msgstr "发送免密登录链接"
+
+#: packages/admin/src/components/LoginPage.tsx:206
+msgid "Sending..."
+msgstr "发送中..."
+
+#: packages/admin/src/components/Settings.tsx:81
+msgid "SEO"
+msgstr "SEO"
+
+#: packages/admin/src/components/Settings.tsx:62
+msgid "Settings"
+msgstr "设置"
+
+#: packages/admin/src/components/LoginPage.tsx:283
+msgid "Sign in to your site"
+msgstr "登录到您的网站"
+
+#: packages/admin/src/components/LoginPage.tsx:284
+msgid "Sign in with email"
+msgstr "使用邮箱登录"
+
+#: packages/admin/src/components/LoginPage.tsx:340
+msgid "Sign in with email link"
+msgstr "使用邮箱链接登录"
+
+#: packages/admin/src/components/LoginPage.tsx:304
+msgid "Sign in with Passkey"
+msgstr "使用通行密钥登录"
+
+#: packages/admin/src/components/Settings.tsx:70
+msgid "Site identity, logo, favicon, and reading preferences"
+msgstr "网站标识、徽标、网站图标和阅读偏好"
+
+#: packages/admin/src/components/Settings.tsx:75
+msgid "Social Links"
+msgstr "社交链接"
+
+#: packages/admin/src/components/Settings.tsx:76
+msgid "Social media profile links"
+msgstr "社交媒体个人资料链接"
+
+#: packages/admin/src/components/LoginPage.tsx:170
+msgid "The link will expire in 15 minutes."
+msgstr "链接将在 15 分钟后过期。"
+
+#: packages/admin/src/components/LoginPage.tsx:351
+msgid "Use your registered passkey to sign in securely."
+msgstr "使用您注册的通行密钥安全登录。"
+
+#: packages/admin/src/components/Settings.tsx:116
+msgid "View email provider status and send test emails"
+msgstr "查看邮件提供商状态并发送测试邮件"
+
+#: packages/admin/src/components/LoginPage.tsx:352
+msgid "We'll send you a link to sign in without a password."
+msgstr "我们将向您发送一个无需密码即可登录的链接。"
