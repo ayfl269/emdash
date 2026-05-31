@@ -50,7 +50,7 @@ msgstr ": gunakan"
 msgid "(from {0})"
 msgstr "(dari {0})"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:352
+#: packages/admin/src/components/RegistryPluginDetail.tsx:402
 msgid "(pre-release)"
 msgstr "(pra-rilis)"
 
@@ -58,7 +58,7 @@ msgstr "(pra-rilis)"
 msgid "(synced)"
 msgstr "(disinkronkan)"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:355
+#: packages/admin/src/components/RegistryPluginDetail.tsx:405
 msgid "(too new)"
 msgstr "(terlalu baru)"
 
@@ -167,6 +167,11 @@ msgstr "{0} bidang"
 msgid "{0} • {1}"
 msgstr "{0} • {1}"
 
+#. placeholder {0}: displayName ?? slug
+#: packages/admin/src/components/RegistryPluginDetail.tsx:338
+msgid "{0} banner"
+msgstr ""
+
 #. placeholder {0}: bestMatch?.detected.siteTitle || "WordPress site"
 #: packages/admin/src/components/WordPressImport.tsx:1142
 msgid "{0} detected"
@@ -181,6 +186,11 @@ msgstr "{0} telah dinonaktifkan"
 #: packages/admin/src/components/PluginManager.tsx:305
 msgid "{0} has been removed"
 msgstr "{0} telah dihapus"
+
+#. placeholder {0}: displayName ?? slug
+#: packages/admin/src/components/RegistryPluginDetail.tsx:350
+msgid "{0} icon"
+msgstr ""
 
 #. placeholder {0}: plugin.installCount.toLocaleString()
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:203
@@ -963,7 +973,7 @@ msgstr "Otorisasi Perangkat"
 msgid "Authorizing..."
 msgstr "Mengotorisasi..."
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:458
+#: packages/admin/src/components/RegistryPluginDetail.tsx:528
 msgid "Authors"
 msgstr "Penulis"
 
@@ -1031,7 +1041,7 @@ msgstr "Kembali ke login"
 msgid "Back to marketplace"
 msgstr "Kembali ke marketplace"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:559
+#: packages/admin/src/components/RegistryPluginDetail.tsx:629
 msgid "Back to plugins"
 msgstr "Kembali ke plugin"
 
@@ -1860,7 +1870,7 @@ msgstr "Format Tanggal"
 msgid "Decimal number"
 msgstr "Angka desimal"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:523
+#: packages/admin/src/components/RegistryPluginDetail.tsx:593
 msgid "Declared permissions"
 msgstr "Izin yang dinyatakan"
 
@@ -2583,7 +2593,7 @@ msgstr "Gagal menyimpan bagian"
 msgid "Error updating widget"
 msgstr "Gagal memperbarui widget"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:415
+#: packages/admin/src/components/RegistryPluginDetail.tsx:465
 msgid "Every published release of this plugin has been withdrawn or could not be verified. Check back later, or contact the publisher."
 msgstr "Setiap rilis yang dipublikasikan dari plugin ini telah ditarik atau tidak dapat diverifikasi. Periksa kembali nanti, atau hubungi penerbit."
 
@@ -2839,7 +2849,7 @@ msgid "Failed to import media"
 msgstr "Gagal mengimpor media"
 
 #: packages/admin/src/lib/api/marketplace.ts:160
-#: packages/admin/src/lib/api/registry.ts:455
+#: packages/admin/src/lib/api/registry.ts:572
 msgid "Failed to install plugin"
 msgstr "Gagal memasang plugin"
 
@@ -2997,7 +3007,7 @@ msgid "Failed to set entry terms"
 msgstr "Gagal mengatur istilah entri"
 
 #: packages/admin/src/lib/api/marketplace.ts:192
-#: packages/admin/src/lib/api/registry.ts:594
+#: packages/admin/src/lib/api/registry.ts:711
 msgid "Failed to uninstall plugin"
 msgstr "Gagal mencopot plugin"
 
@@ -3023,7 +3033,7 @@ msgid "Failed to update domain"
 msgstr "Gagal memperbarui domain"
 
 #: packages/admin/src/lib/api/marketplace.ts:176
-#: packages/admin/src/lib/api/registry.ts:526
+#: packages/admin/src/lib/api/registry.ts:643
 msgid "Failed to update plugin"
 msgstr "Gagal memperbarui plugin"
 
@@ -3417,7 +3427,7 @@ msgid "Incompatible"
 msgstr "Tidak Kompatibel"
 
 #. placeholder {0}: formatDate(release.indexedAt)
-#: packages/admin/src/components/RegistryPluginDetail.tsx:325
+#: packages/admin/src/components/RegistryPluginDetail.tsx:375
 msgid "indexed {0}"
 msgstr "diindeks {0}"
 
@@ -3484,7 +3494,7 @@ msgid "Instagram"
 msgstr "Instagram"
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:193
-#: packages/admin/src/components/RegistryPluginDetail.tsx:373
+#: packages/admin/src/components/RegistryPluginDetail.tsx:423
 msgid "Install"
 msgstr "Pasang"
 
@@ -3499,7 +3509,7 @@ msgstr "Pemasangan diblokir"
 #: packages/admin/src/components/MarketplaceBrowse.tsx:261
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:174
 #: packages/admin/src/components/RegistryBrowse.tsx:198
-#: packages/admin/src/components/RegistryPluginDetail.tsx:365
+#: packages/admin/src/components/RegistryPluginDetail.tsx:415
 msgid "Installed"
 msgstr "Terpasang"
 
@@ -4354,7 +4364,7 @@ msgstr "Tidak ada field untuk dibandingkan"
 msgid "No headings in document"
 msgstr "Tidak ada judul di dokumen"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:413
+#: packages/admin/src/components/RegistryPluginDetail.tsx:463
 msgid "No installable releases"
 msgstr "Tidak ada rilis yang dapat diinstal"
 
@@ -4829,7 +4839,7 @@ msgstr "Kesalahan plugin ({0})"
 msgid "Plugin not found"
 msgstr "Plugin tidak ditemukan"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:293
+#: packages/admin/src/components/RegistryPluginDetail.tsx:324
 msgid "Plugin not found. The publisher handle or slug may be incorrect."
 msgstr "Plugin tidak ditemukan. Handle atau slug penerbit mungkin salah."
 
@@ -4854,7 +4864,7 @@ msgstr "Plugin merespons dengan {0}: {text}"
 msgid "Plugin uninstalled"
 msgstr "Plugin dihapus"
 
-#: packages/admin/src/lib/api/registry.ts:546
+#: packages/admin/src/lib/api/registry.ts:663
 msgid "Plugin update requires re-consent"
 msgstr "Pembaruan plugin memerlukan persetujuan ulang"
 
@@ -4883,7 +4893,7 @@ msgstr "Pos"
 msgid "Posts Per Page"
 msgstr "Pos Per Halaman"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:327
+#: packages/admin/src/components/RegistryPluginDetail.tsx:377
 msgid "Pre-release"
 msgstr "Pra-rilis"
 
@@ -4964,7 +4974,7 @@ msgstr "Dipublikasikan {0}"
 msgid "Published At"
 msgstr "Dipublikasikan Pada"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:319
+#: packages/admin/src/components/RegistryPluginDetail.tsx:369
 msgid "Published by"
 msgstr "Diterbitkan oleh"
 
@@ -5086,7 +5096,7 @@ msgstr "Pendaftaran dibatalkan atau waktu telah habis. Silakan coba lagi."
 msgid "Registry"
 msgstr "Registri"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:429
+#: packages/admin/src/components/RegistryPluginDetail.tsx:479
 msgid "Release is too new to install"
 msgstr "Rilis terlalu baru untuk dipasang"
 
@@ -5487,6 +5497,7 @@ msgstr "Cakupan: {0}"
 #. placeholder {0}: i + 1
 #. placeholder {0}: index + 1
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:244
+#: packages/admin/src/components/RegistryPluginDetail.tsx:498
 #: packages/admin/src/components/ThemeMarketplaceDetail.tsx:174
 #: packages/admin/src/components/ThemeMarketplaceDetail.tsx:293
 msgid "Screenshot {0}"
@@ -5507,6 +5518,7 @@ msgid "Screenshot viewer"
 msgstr "Penampil tangkapan layar"
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:234
+#: packages/admin/src/components/RegistryPluginDetail.tsx:492
 #: packages/admin/src/components/ThemeMarketplaceDetail.tsx:164
 msgid "Screenshots"
 msgstr "Tangkapan Layar"
@@ -5677,7 +5689,7 @@ msgstr "Audit keamanan menandai plugin ini berpotensi tidak aman."
 msgid "Security audit passed"
 msgstr "Audit keamanan lulus"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:491
+#: packages/admin/src/components/RegistryPluginDetail.tsx:561
 msgid "Security contacts"
 msgstr "Kontak keamanan"
 
@@ -6364,7 +6376,7 @@ msgstr "Passkey ini sudah terdaftar di perangkat ini."
 msgid "This plugin requires no special permissions."
 msgstr "Plugin ini tidak memerlukan izin khusus."
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:398
+#: packages/admin/src/components/RegistryPluginDetail.tsx:448
 msgid "This publisher claims a name they couldn't prove they own — possibly impersonating someone else. Install is disabled. If you know the publisher and trust them, ask them to fix their identity setup before retrying."
 msgstr "Penerbit ini mengklaim nama yang tidak dapat mereka buktikan kepemilikannya — mungkin meniru orang lain. Pemasangan dinonaktifkan. Jika Anda mengenal penerbit ini dan mempercayainya, minta mereka memperbaiki pengaturan identitasnya sebelum mencoba lagi."
 
@@ -6956,7 +6968,7 @@ msgid "Validation"
 msgstr "Validasi"
 
 #: packages/admin/src/components/RegistryBrowse.tsx:186
-#: packages/admin/src/components/RegistryPluginDetail.tsx:314
+#: packages/admin/src/components/RegistryPluginDetail.tsx:364
 msgid "Verified publisher"
 msgstr "Penerbit terverifikasi"
 
@@ -6974,12 +6986,12 @@ msgid "Verifying..."
 msgstr "Memverifikasi..."
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:321
-#: packages/admin/src/components/RegistryPluginDetail.tsx:334
+#: packages/admin/src/components/RegistryPluginDetail.tsx:384
 msgid "Version"
 msgstr "Versi"
 
 #. placeholder {0}: release.version
-#: packages/admin/src/components/RegistryPluginDetail.tsx:325
+#: packages/admin/src/components/RegistryPluginDetail.tsx:375
 msgid "Version {0}"
 msgstr "Versi {0}"
 
@@ -7007,11 +7019,11 @@ msgstr "Lihat {title} yang dipublikasikan"
 msgid "View Site"
 msgstr "Lihat Situs"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:449
+#: packages/admin/src/components/RegistryPluginDetail.tsx:519
 msgid "View source"
 msgstr "Lihat sumber"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:681
+#: packages/admin/src/components/RegistryPluginDetail.tsx:751
 msgid "View the {license} license on spdx.org"
 msgstr "Lihat lisensi {license} di spdx.org"
 
@@ -7033,7 +7045,7 @@ msgstr "Peringatkan"
 msgid "We couldn't connect to a WordPress site at {0}. This could mean the site isn't WordPress, the REST API is disabled, or the site isn't accessible."
 msgstr "Kami tidak dapat terhubung ke situs WordPress di {0}. Ini bisa berarti situs bukan WordPress, REST API yang dinonaktifkan, atau situs tidak dapat diakses."
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:396
+#: packages/admin/src/components/RegistryPluginDetail.tsx:446
 msgid "We couldn't verify this publisher's identity"
 msgstr "Kami tidak dapat memverifikasi identitas penerbit ini"
 
@@ -7059,7 +7071,7 @@ msgid "WebAuthn is not supported in this browser"
 msgstr "WebAuthn tidak didukung di browser ini"
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:226
-#: packages/admin/src/components/RegistryPluginDetail.tsx:474
+#: packages/admin/src/components/RegistryPluginDetail.tsx:544
 msgid "Website"
 msgstr "Situs Web"
 
@@ -7291,7 +7303,7 @@ msgid "Your Role"
 msgstr "Peran Anda"
 
 #. placeholder {0}: formatHoldback(config.policy?.minimumReleaseAgeSeconds ?? 0)
-#: packages/admin/src/components/RegistryPluginDetail.tsx:431
+#: packages/admin/src/components/RegistryPluginDetail.tsx:481
 msgid "Your site requires releases to be at least {0} old before they can be installed. This release will become installable later."
 msgstr "Situs Anda mengharuskan rilis berusia minimal {0} sebelum dapat dipasang. Rilis ini akan dapat dipasang nanti."
 

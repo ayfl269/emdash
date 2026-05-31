@@ -50,7 +50,7 @@ msgstr ": 使用"
 msgid "(from {0})"
 msgstr "（{0}より）"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:352
+#: packages/admin/src/components/RegistryPluginDetail.tsx:402
 msgid "(pre-release)"
 msgstr ""
 
@@ -58,7 +58,7 @@ msgstr ""
 msgid "(synced)"
 msgstr "（同期済み）"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:355
+#: packages/admin/src/components/RegistryPluginDetail.tsx:405
 msgid "(too new)"
 msgstr ""
 
@@ -167,6 +167,11 @@ msgstr ""
 msgid "{0} • {1}"
 msgstr ""
 
+#. placeholder {0}: displayName ?? slug
+#: packages/admin/src/components/RegistryPluginDetail.tsx:338
+msgid "{0} banner"
+msgstr ""
+
 #. placeholder {0}: bestMatch?.detected.siteTitle || "WordPress site"
 #: packages/admin/src/components/WordPressImport.tsx:1142
 msgid "{0} detected"
@@ -181,6 +186,11 @@ msgstr "{0}を無効化しました"
 #: packages/admin/src/components/PluginManager.tsx:305
 msgid "{0} has been removed"
 msgstr "{0}を削除しました"
+
+#. placeholder {0}: displayName ?? slug
+#: packages/admin/src/components/RegistryPluginDetail.tsx:350
+msgid "{0} icon"
+msgstr ""
 
 #. placeholder {0}: plugin.installCount.toLocaleString()
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:203
@@ -963,7 +973,7 @@ msgstr "デバイスを認可"
 msgid "Authorizing..."
 msgstr "認可中..."
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:458
+#: packages/admin/src/components/RegistryPluginDetail.tsx:528
 msgid "Authors"
 msgstr ""
 
@@ -1031,7 +1041,7 @@ msgstr "ログインに戻る"
 msgid "Back to marketplace"
 msgstr "マーケットプレイスに戻る"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:559
+#: packages/admin/src/components/RegistryPluginDetail.tsx:629
 msgid "Back to plugins"
 msgstr ""
 
@@ -1860,7 +1870,7 @@ msgstr "日付形式"
 msgid "Decimal number"
 msgstr "小数"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:523
+#: packages/admin/src/components/RegistryPluginDetail.tsx:593
 msgid "Declared permissions"
 msgstr ""
 
@@ -2583,7 +2593,7 @@ msgstr "セクションの保存エラー"
 msgid "Error updating widget"
 msgstr ""
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:415
+#: packages/admin/src/components/RegistryPluginDetail.tsx:465
 msgid "Every published release of this plugin has been withdrawn or could not be verified. Check back later, or contact the publisher."
 msgstr ""
 
@@ -2839,7 +2849,7 @@ msgid "Failed to import media"
 msgstr ""
 
 #: packages/admin/src/lib/api/marketplace.ts:160
-#: packages/admin/src/lib/api/registry.ts:455
+#: packages/admin/src/lib/api/registry.ts:572
 msgid "Failed to install plugin"
 msgstr ""
 
@@ -2997,7 +3007,7 @@ msgid "Failed to set entry terms"
 msgstr ""
 
 #: packages/admin/src/lib/api/marketplace.ts:192
-#: packages/admin/src/lib/api/registry.ts:594
+#: packages/admin/src/lib/api/registry.ts:711
 msgid "Failed to uninstall plugin"
 msgstr ""
 
@@ -3023,7 +3033,7 @@ msgid "Failed to update domain"
 msgstr "ドメインの更新に失敗しました"
 
 #: packages/admin/src/lib/api/marketplace.ts:176
-#: packages/admin/src/lib/api/registry.ts:526
+#: packages/admin/src/lib/api/registry.ts:643
 msgid "Failed to update plugin"
 msgstr ""
 
@@ -3417,7 +3427,7 @@ msgid "Incompatible"
 msgstr "非互換"
 
 #. placeholder {0}: formatDate(release.indexedAt)
-#: packages/admin/src/components/RegistryPluginDetail.tsx:325
+#: packages/admin/src/components/RegistryPluginDetail.tsx:375
 msgid "indexed {0}"
 msgstr ""
 
@@ -3484,7 +3494,7 @@ msgid "Instagram"
 msgstr "Instagram"
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:193
-#: packages/admin/src/components/RegistryPluginDetail.tsx:373
+#: packages/admin/src/components/RegistryPluginDetail.tsx:423
 msgid "Install"
 msgstr "インストール"
 
@@ -3499,7 +3509,7 @@ msgstr "インストールがブロックされました"
 #: packages/admin/src/components/MarketplaceBrowse.tsx:261
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:174
 #: packages/admin/src/components/RegistryBrowse.tsx:198
-#: packages/admin/src/components/RegistryPluginDetail.tsx:365
+#: packages/admin/src/components/RegistryPluginDetail.tsx:415
 msgid "Installed"
 msgstr "インストール済み"
 
@@ -4354,7 +4364,7 @@ msgstr "比較するフィールドがありません"
 msgid "No headings in document"
 msgstr "ドキュメントに見出しがありません"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:413
+#: packages/admin/src/components/RegistryPluginDetail.tsx:463
 msgid "No installable releases"
 msgstr ""
 
@@ -4826,7 +4836,7 @@ msgstr ""
 msgid "Plugin not found"
 msgstr "プラグインが見つかりません"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:293
+#: packages/admin/src/components/RegistryPluginDetail.tsx:324
 msgid "Plugin not found. The publisher handle or slug may be incorrect."
 msgstr ""
 
@@ -4851,7 +4861,7 @@ msgstr ""
 msgid "Plugin uninstalled"
 msgstr "プラグインをアンインストールしました"
 
-#: packages/admin/src/lib/api/registry.ts:546
+#: packages/admin/src/lib/api/registry.ts:663
 msgid "Plugin update requires re-consent"
 msgstr ""
 
@@ -4880,7 +4890,7 @@ msgstr "投稿"
 msgid "Posts Per Page"
 msgstr "ページあたりの投稿数"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:327
+#: packages/admin/src/components/RegistryPluginDetail.tsx:377
 msgid "Pre-release"
 msgstr ""
 
@@ -4961,7 +4971,7 @@ msgstr "公開日: {0}"
 msgid "Published At"
 msgstr "公開日時"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:319
+#: packages/admin/src/components/RegistryPluginDetail.tsx:369
 msgid "Published by"
 msgstr ""
 
@@ -5083,7 +5093,7 @@ msgstr "登録がキャンセルされたかタイムアウトしました。も
 msgid "Registry"
 msgstr ""
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:429
+#: packages/admin/src/components/RegistryPluginDetail.tsx:479
 msgid "Release is too new to install"
 msgstr ""
 
@@ -5484,6 +5494,7 @@ msgstr "スコープ: {0}"
 #. placeholder {0}: i + 1
 #. placeholder {0}: index + 1
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:244
+#: packages/admin/src/components/RegistryPluginDetail.tsx:498
 #: packages/admin/src/components/ThemeMarketplaceDetail.tsx:174
 #: packages/admin/src/components/ThemeMarketplaceDetail.tsx:293
 msgid "Screenshot {0}"
@@ -5504,6 +5515,7 @@ msgid "Screenshot viewer"
 msgstr "スクリーンショットビューアー"
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:234
+#: packages/admin/src/components/RegistryPluginDetail.tsx:492
 #: packages/admin/src/components/ThemeMarketplaceDetail.tsx:164
 msgid "Screenshots"
 msgstr "スクリーンショット"
@@ -5674,7 +5686,7 @@ msgstr "このプラグインがセキュリティ監査で安全でない可能
 msgid "Security audit passed"
 msgstr "セキュリティ監査に合格"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:491
+#: packages/admin/src/components/RegistryPluginDetail.tsx:561
 msgid "Security contacts"
 msgstr ""
 
@@ -6361,7 +6373,7 @@ msgstr "このパスキーはこのデバイスに既に登録されています
 msgid "This plugin requires no special permissions."
 msgstr "このプラグインに特別な権限は不要です。"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:398
+#: packages/admin/src/components/RegistryPluginDetail.tsx:448
 msgid "This publisher claims a name they couldn't prove they own — possibly impersonating someone else. Install is disabled. If you know the publisher and trust them, ask them to fix their identity setup before retrying."
 msgstr ""
 
@@ -6953,7 +6965,7 @@ msgid "Validation"
 msgstr "バリデーション"
 
 #: packages/admin/src/components/RegistryBrowse.tsx:186
-#: packages/admin/src/components/RegistryPluginDetail.tsx:314
+#: packages/admin/src/components/RegistryPluginDetail.tsx:364
 msgid "Verified publisher"
 msgstr ""
 
@@ -6971,12 +6983,12 @@ msgid "Verifying..."
 msgstr "確認中..."
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:321
-#: packages/admin/src/components/RegistryPluginDetail.tsx:334
+#: packages/admin/src/components/RegistryPluginDetail.tsx:384
 msgid "Version"
 msgstr "バージョン"
 
 #. placeholder {0}: release.version
-#: packages/admin/src/components/RegistryPluginDetail.tsx:325
+#: packages/admin/src/components/RegistryPluginDetail.tsx:375
 msgid "Version {0}"
 msgstr ""
 
@@ -7004,11 +7016,11 @@ msgstr "公開済みの{title}を表示"
 msgid "View Site"
 msgstr "サイトを表示"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:449
+#: packages/admin/src/components/RegistryPluginDetail.tsx:519
 msgid "View source"
 msgstr ""
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:681
+#: packages/admin/src/components/RegistryPluginDetail.tsx:751
 msgid "View the {license} license on spdx.org"
 msgstr ""
 
@@ -7030,7 +7042,7 @@ msgstr "警告"
 msgid "We couldn't connect to a WordPress site at {0}. This could mean the site isn't WordPress, the REST API is disabled, or the site isn't accessible."
 msgstr "{0}のWordPressサイトに接続できませんでした。サイトがWordPressでない、REST APIが無効、またはサイトにアクセスできない可能性があります。"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:396
+#: packages/admin/src/components/RegistryPluginDetail.tsx:446
 msgid "We couldn't verify this publisher's identity"
 msgstr ""
 
@@ -7056,7 +7068,7 @@ msgid "WebAuthn is not supported in this browser"
 msgstr "このブラウザはWebAuthnに対応していません"
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:226
-#: packages/admin/src/components/RegistryPluginDetail.tsx:474
+#: packages/admin/src/components/RegistryPluginDetail.tsx:544
 msgid "Website"
 msgstr "ウェブサイト"
 
@@ -7288,7 +7300,7 @@ msgid "Your Role"
 msgstr "あなたのロール"
 
 #. placeholder {0}: formatHoldback(config.policy?.minimumReleaseAgeSeconds ?? 0)
-#: packages/admin/src/components/RegistryPluginDetail.tsx:431
+#: packages/admin/src/components/RegistryPluginDetail.tsx:481
 msgid "Your site requires releases to be at least {0} old before they can be installed. This release will become installable later."
 msgstr ""
 
