@@ -2541,7 +2541,10 @@ msgid ""
 "Editor\n"
 "Reporter\n"
 "Photographer"
-msgstr "Redaktør\nReporter\nFotograf"
+msgstr ""
+"Redaktør\n"
+"Reporter\n"
+"Fotograf"
 
 #: packages/admin/src/components/InviteAcceptPage.tsx:59
 #: packages/admin/src/components/Settings.tsx:115
@@ -4847,7 +4850,10 @@ msgid ""
 "Option 1\n"
 "Option 2\n"
 "Option 3"
-msgstr "Alternativ 1\nAlternativ 2\nAlternativ 3"
+msgstr ""
+"Alternativ 1\n"
+"Alternativ 2\n"
+"Alternativ 3"
 
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:309
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:474
